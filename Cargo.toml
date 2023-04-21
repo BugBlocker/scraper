@@ -24,6 +24,7 @@ tendril = "0.4.3"
 ahash = "0.8"
 indexmap = { version = "1.9.3", optional = true }
 once_cell = "1.0"
+tealr = {version="0.9.0-alpha1", features=["mlua", "mlua_lua54", "mlua_vendored", "mlua_async"]}
 
 [dependencies.getopts]
 version = "0.2.21"
